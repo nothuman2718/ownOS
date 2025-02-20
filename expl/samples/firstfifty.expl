@@ -1,0 +1,20 @@
+int main()
+{
+decl
+    int a;
+    int i;
+    int temp;
+    enddecl
+
+    begin
+        i=1;
+        a=5;
+        while(i<=a) do
+            temp = exposcall("Write", -2, i);
+            i=i+1;
+        endwhile;
+
+        return 0;
+    end  
+
+}
