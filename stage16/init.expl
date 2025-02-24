@@ -21,8 +21,11 @@ int main() {
 	    int temp, a, b, sol;
 	enddecl
 	begin
+        breakpoint;
         temp = exposcall("Read", -1, a);
+        breakpoint;
         temp = exposcall("Read", -1, b);
+        breakpoint;
         sol = gcd(a, b);
         temp = exposcall("Write", -2, sol);
         return 0;
